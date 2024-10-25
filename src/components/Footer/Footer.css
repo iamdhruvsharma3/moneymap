@@ -1,0 +1,44 @@
+.footer {
+    background-color: green; /* Your primary color */
+    color: white;              /* Text color */
+    padding: 20px;            /* Padding for spacing */
+    text-align: center;       /* Center align text */
+    position: relative;        /* Allow positioning for child elements */
+    bottom: 0;                 /* Position at the bottom */
+    width: 100%;              /* Full width */
+}
+
+.footer-content {
+    max-width: 1200px;       /* Max width to contain content */
+    margin: 0 auto;          /* Center align within the page */
+}
+
+.footer-links {
+    list-style-type: none;    /* Remove default list styling */
+    padding: 0;               /* Remove padding */
+    margin: 10px 0 0 0;      /* Margin for spacing */
+}
+
+.footer-links li {
+    display: inline;           /* Display links inline */
+    margin: 0 15px;           /* Space between links */
+}
+
+.footer-links a {
+    color: white;             /* Link color */
+    text-decoration: none;    /* Remove underline from links */
+    transition: color 0.3s;   /* Transition effect for hover */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ffdd57;            /* Change color on hover */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .footer-links li {
+        display: block;        /* Stack links vertically on small screens */
+        margin: 5px 0;        /* Space between stacked links */
+    }
+}

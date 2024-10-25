@@ -1,0 +1,42 @@
+/* src/components/Header/Header.css */
+
+.header {
+    background-color: green; /* Primary color indicating wealth */
+    color: white;            /* Text color */
+    padding: 20px;          /* Spacing around the header */
+    text-align: center;      /* Center the text */
+}
+
+.header h1 {
+    margin: 0;              /* Remove default margin */
+}
+
+.header p {
+    margin: 5px 0 0;       /* Spacing for the paragraph */
+    font-size: 1.2em;       /* Slightly larger font size */
+}
+
+/* Navbar styles */
+.navbar {
+    margin-top: 15px;       /* Spacing above the navbar */
+}
+
+.navbar ul {
+    list-style: none;        /* Remove bullet points */
+    padding: 0;             /* Remove padding */
+}
+
+.navbar li {
+    display: inline;         /* Display list items inline */
+    margin: 0 15px;         /* Spacing between items */
+}
+
+.navbar a {
+    color: white;            /* Link color */
+    text-decoration: none;   /* Remove underline */
+    font-weight: bold;       /* Bold links */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

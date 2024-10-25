@@ -1,0 +1,26 @@
+/* src/components/TransactionItem/TransactionItem.css */
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    padding: 15px; /* Increased padding for better spacing */
+    margin: 10px 0; /* Margin between items */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.transaction-item:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.transaction-description {
+    font-weight: bold; /* Make description bold */
+}
+
+.transaction-amount {
+    font-size: 1.2em; /* Slightly larger amount text */
+    font-weight: bold; /* Make the amount bold */
+}

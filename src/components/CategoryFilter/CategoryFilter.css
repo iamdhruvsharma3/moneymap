@@ -1,0 +1,28 @@
+/* src/components/CategoryFilter/CategoryFilter.css */
+
+.category-filter {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.category-filter h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.category-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #1A1F71;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+.category-select:focus {
+    outline: none;
+    border-color: #ffdd57;
+}
